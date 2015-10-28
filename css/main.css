@@ -1,0 +1,17 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.dartboard {
+    position: relative;
+}
+
+.dartboard .score-preview {
+    font-weight: bold;
+    font-size: 5em;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
