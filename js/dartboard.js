@@ -25,11 +25,11 @@
             hoverScore: function (e) {
                 var slice = this.getSlice(e.target.id);
                 this.previewScore(slice);
-                this.container.trigger('slice-hover', slice);
+                this.container.trigger('slice-hover', [slice, e]);
             },
             clickScore: function (e) {
                 var slice = this.getSlice(e.target.id);
-                this.container.trigger('slice-click', slice);
+                this.container.trigger('slice-click', [slice, e]);
             },
             getSlice: function (id) {
                 id = id || 's0';
