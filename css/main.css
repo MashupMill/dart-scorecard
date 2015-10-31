@@ -15,7 +15,7 @@
 
 .dartboard .score-preview {
     font-weight: bold;
-    font-size: 5em;
+    font-size: 5vw;
     position: absolute;
     top: 0;
     left: 0;
